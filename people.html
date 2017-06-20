@@ -19,6 +19,11 @@ title: People
         {% endif %}
       </dt>
       <dd>
+        {% if person.role == "alum" %}
+          {% if person.current %}
+            {{ person.current }}
+          {% endif %}
+        {% endif %}
         {% if person.bio %}
           {{ person.bio | markdownify }}
         {% endif %}

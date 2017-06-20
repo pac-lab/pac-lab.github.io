@@ -1,29 +1,67 @@
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
+# faculty
+martin:
+    display_name: "Professor Martin Rinard"
+    webpage: "https://people.csail.mit.edu/rinard/"
+    github:
     role: faculty
-    bio: |
-        Professor X is the leader and founder of X-Men. 
-melody:
-    display_name: "Scott Summers"
-    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
-    role: staff
-    bio: |
-        Scott, also known as Cyclops, shoots lasers from his eyes, which makes him the perfect administrative assistant.
+    bio: 
 
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
-    role: postdoc
-
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+# graduate students
+sara:
+    display_name: "Sara Achour"
+    webpage: "https://people.csail.mit.edu/sachour/"
+    github:
     role: grad
+    bio:
 
-jean:
-    display_name: "Jean Grey"
+jiasi:
+    display_name: "Jiasi Shen"
+    webpage: "https://people.csail.mit.edu/jiasi/"
+    github:
+    role: grad
+    bio:
+
+deokhwan:
+    display_name: "Deokhwan Kim"
+    webpage: "https://people.csail.mit.edu/dkim/"
+    github:
+    role: grad
+    bio:
+
+jose:
+    display_name: "José Pablo Cambronero Sánchez"
+    webpage: "http://www.josecambronero.com/"
+    github: "https://www.github.com/josepablocam"
+    role: grad
+    bio:
+
+shivam:
+    display_name: "Shivam Handa"
+    webpage: 
+    github:
+    role: grad
+    bio:
+
+# postdocs
+malavika:
+    display_name: "Malavika Samak"
+    webpage:
+    github:
+    role: postdoc
+    bio:
+
+# research scientists
+# TODO
+
+# others
+# TODO
+
+# alumni
+phillip:
+    display_name: "Phillip Stanley-Marbell"
+    webpage: "http://www.phillipstanleymarbell.org/"
+    github: 
     role: alum
-    bio: "Ph.D., 2013. Now at Microsoft Research."
+    bio:
+    current: "Faculty (University of Cambridge)"
+

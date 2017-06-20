@@ -1,5 +1,5 @@
-name: Awesome Research Group
-url: http://awesome.example.edu
+name: Program Analysis and Compilation Group at MIT CSAIL
+url: http://pac.mit.edu
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -12,10 +12,9 @@ permalink: /blog/:year/:month/:day/:title.html
 # Sections on the "people" page.
 roles:
     - {key: faculty, name: Faculty}
-    - {key: staff, name: Staff}
-    - {key: postdoc, name: Researchers}
     - {key: grad, name: Graduate Students}
-    - {key: collab, name: Collaborators}
+    - {key: postdoc, name: Post-Doctoral Fellows}
+    - {key: scientist, name: Scientist}
     - {key: alum, name: Alumni}
 
 # Number of news stories on the front page.
