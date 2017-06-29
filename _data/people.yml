@@ -1,12 +1,26 @@
 # faculty
 martin:
-    display_name: "Professor Martin Rinard"
+    display_name: "Martin Rinard"
     webpage: "https://people.csail.mit.edu/rinard/"
     github:
     role: faculty
     bio: 
 
 # graduate students
+deokhwan:
+    display_name: "Deokhwan Kim"
+    webpage: "https://people.csail.mit.edu/dkim/"
+    github:
+    role: grad
+    bio:
+
+fan:
+    display_name: "Fan Long"
+    webpage: "https://people.csail.mit.edu/fanl/"
+    github:
+    role: grad
+    bio:
+
 sara:
     display_name: "Sara Achour"
     webpage: "https://people.csail.mit.edu/sachour/"
@@ -21,9 +35,9 @@ jiasi:
     role: grad
     bio:
 
-deokhwan:
-    display_name: "Deokhwan Kim"
-    webpage: "https://people.csail.mit.edu/dkim/"
+adam:
+    display_name: "Adam Yedidia"
+    webpage: "https://adamyedidia.wordpress.com/"
     github:
     role: grad
     bio:
@@ -31,7 +45,7 @@ deokhwan:
 jose:
     display_name: "José Pablo Cambronero Sánchez"
     webpage: "http://www.josecambronero.com/"
-    github: "https://www.github.com/josepablocam"
+    github:
     role: grad
     bio:
 
@@ -51,17 +65,49 @@ malavika:
     bio:
 
 # research scientists
-# TODO
+jeff:
+    display_name: "Jeff Perkins"
+    webpage: "https://www.csail.mit.edu/user/735"
+    github:
+    role: scientist
+    bio:
 
-# others
-# TODO
+stelios:
+    display_name: "Stelios Sidiroglou-Douskos"
+    webpage: "https://people.csail.mit.edu/stelios/"
+    github:
+    role: scientist
+    bio:
+
+michael_gordon:
+    display_name: "Michael Gordon"
+    webpage: "https://people.csail.mit.edu/mgordon/"
+    github:
+    role: scientist
+    bio:
+
+jordan:
+    display_name: "Jordan Eikenberry"
+    webpage:
+    github:
+    role: scientist
+    bio:
+
+anthony:
+    display_name: "Anthony"
+    webpage:
+    github:
+    role: scientist
+    bio:
+
 
 # alumni
+# TODO: there's a ton of these to add...
 phillip:
     display_name: "Phillip Stanley-Marbell"
     webpage: "http://www.phillipstanleymarbell.org/"
     github: 
     role: alum
     bio:
-    current: "Faculty (University of Cambridge)"
+    current: "University of Cambridge"
 

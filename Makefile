@@ -18,8 +18,3 @@ _site/index.html: $(wildcard *.html) _includes/pubs.html _config.yml \
 
 clean:
 	$(RM) -r _site _includes/pubs.html
-
-HOST := yourwebpage.com
-PATHSVR := www/
-deploy: clean all
-	rsync --compress --recursive --checksum --itemize-changes --delete -e ssh _site/ $(HOST):$(PATHSVR)
