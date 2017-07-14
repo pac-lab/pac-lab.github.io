@@ -1,0 +1,49 @@
+---
+layout: default
+title: Home
+notitle: true
+---
+<div class="jumbotron">
+  <p>
+    The <b>Program Analysis and Compilation Group</b> at <b>MIT</b> works on a wide variety
+    of interesting problems in programming languages and software engineering, not limited to:
+    security, approximate computing, program repair, verification, and synthesis.
+  </p>
+</div>
+
+<h2>People</h2>
+<ul class="news list-unstyled">
+{% for role in site.roles %}
+  <h3>{{ role.name }}</h3>
+  <dl class="people">
+  {% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == role.key %}
+      <dt class="person">
+        {% if person.webpage %}
+        <a href="{{ person.webpage |escape }}">
+        {% endif %}
+          {{ person.display_name }}
+        {% if person.webpage %}
+        </a>
+        {% endif %}
+      </dt>
+      <dd>
+        {% if person.role == "alum" %}
+          {% if person.current %}
+            {{ person.current }}
+          {% endif %}
+        {% endif %}
+        {% if person.bio %}
+          {{ person.bio | markdownify }}
+        {% endif %}
+      </dd>
+    {% endif %}
+  {% endfor %}
+  </dl>
+{% endfor %}
+</ul>
+{% assign numposts = site.posts | size %}
+{% if numposts >= site.front_page_news %}
+<p><a href="{{ site.base }}/blog/">Older posts&hellip;</a></p>
+{% endif %}

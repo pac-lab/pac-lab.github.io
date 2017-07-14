@@ -1,0 +1,120 @@
+# faculty
+martin:
+    display_name: "Martin Rinard"
+    webpage: "https://people.csail.mit.edu/rinard/"
+    github:
+    role: faculty
+    bio: 
+
+# graduate students
+deokhwan:
+    display_name: "Deokhwan Kim"
+    webpage: "https://people.csail.mit.edu/dkim/"
+    github:
+    role: grad
+    bio:
+
+fan:
+    display_name: "Fan Long"
+    webpage: "https://people.csail.mit.edu/fanl/"
+    github:
+    role: grad
+    bio:
+
+sara:
+    display_name: "Sara Achour"
+    webpage: "https://people.csail.mit.edu/sachour/"
+    github:
+    role: grad
+    bio:
+
+jiasi:
+    display_name: "Jiasi Shen"
+    webpage: "https://people.csail.mit.edu/jiasi/"
+    github:
+    role: grad
+    bio:
+
+adam:
+    display_name: "Adam Yedidia"
+    webpage: "https://adamyedidia.wordpress.com/"
+    github:
+    role: grad
+    bio:
+
+shivam:
+    display_name: "Shivam Handa"
+    webpage: 
+    github:
+    role: grad
+    bio:
+
+jose:
+    display_name: "José Pablo Cambronero Sánchez"
+    webpage: "http://www.josecambronero.com/"
+    github:
+    role: grad
+    bio:
+
+# postdocs
+malavika:
+    display_name: "Malavika Samak"
+    webpage:
+    github:
+    role: postdoc
+    bio:
+
+# research scientists
+jeff:
+    display_name: "Jeff Perkins"
+    webpage: "https://www.csail.mit.edu/user/735"
+    github:
+    role: scientist
+    bio:
+
+stelios:
+    display_name: "Stelios Sidiroglou-Douskos"
+    webpage: "https://people.csail.mit.edu/stelios/"
+    github:
+    role: scientist
+    bio:
+
+eric:
+    display_name: "Eric Lahtinen"
+    webpage:
+    github:
+    role: scientist
+    bio:
+
+michael_gordon:
+    display_name: "Michael Gordon"
+    webpage: "https://people.csail.mit.edu/mgordon/"
+    github:
+    role: scientist
+    bio:
+
+jordan:
+    display_name: "Jordan Eikenberry"
+    webpage:
+    github:
+    role: scientist
+    bio:
+
+anthony:
+    display_name: "Anthony"
+    webpage:
+    github:
+    role: scientist
+    bio:
+
+
+# alumni
+# TODO: there's a ton of these to add...
+phillip:
+    display_name: "Phillip Stanley-Marbell"
+    webpage: "http://www.phillipstanleymarbell.org/"
+    github: 
+    role: alum
+    bio:
+    current: "University of Cambridge"
+
