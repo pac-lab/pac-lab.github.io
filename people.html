@@ -1,31 +1,516 @@
----
-layout: default
-title: People
----
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Program Analysis and Compilation Group at MIT CSAIL: People</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/group.css" rel="stylesheet">
+        <link rel="alternate" type="application/atom+xml" title="Atom"
+            href="/blog/blog.xml">
+    </head>
+    <body>
+        <div class="container">
+          <div class="header">
+            <ul class="nav nav-pills pull-right">
+              
+              
+                <li >
+                  <a href="/">
+                    Home
+                  </a>
+                </li>
+              
+                <li >
+                  <a href="/publications.html">
+                    Publications
+                  </a>
+                </li>
+              
+            </ul>
+            <a href="/">
+                <img src="/img/mit-logo.svg"
+                    alt="PAC" id="logo">
+            </a>
+          </div>
 
-{% for role in site.roles %}
-  <h3>{{ role.name }}</h3>
+          
+          
+          <h2>People</h2>
+          
+
+          
+  <h3>Faculty</h3>
   <dl class="people">
-  {% for item in site.data.people %}
-    {% assign person = item[1] %}
-    {% if person.role == role.key %}
+  
+    
+    
       <dt class="person">
-        {% if person.webpage %}
-        <a href="{{ person.webpage |escape }}">
-        {% endif %}
-          {{ person.display_name }}
-        {% if person.webpage %}
+        
+        <a href="https://people.csail.mit.edu/rinard/">
+        
+          Martin Rinard
+        
         </a>
-        {% endif %}
+        
       </dt>
       <dd>
-        {% if person.role == "alum" %}
-          {% if person.current %}
-            {{ person.current }}
-          {% endif %}
-        {% endif %}
+        
       </dd>
-    {% endif %}
-  {% endfor %}
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
   </dl>
-{% endfor %}
+
+  <h3>Graduate Students</h3>
+  <dl class="people">
+  
+    
+    
+  
+    
+    
+      <dt class="person">
+        
+        <a href="https://people.csail.mit.edu/dkim/">
+        
+          Deokhwan Kim
+        
+        </a>
+        
+      </dt>
+      <dd>
+        
+      </dd>
+    
+  
+    
+    
+      <dt class="person">
+        
+        <a href="https://people.csail.mit.edu/fanl/">
+        
+          Fan Long
+        
+        </a>
+        
+      </dt>
+      <dd>
+        
+      </dd>
+    
+  
+    
+    
+      <dt class="person">
+        
+        <a href="https://people.csail.mit.edu/sachour/">
+        
+          Sara Achour
+        
+        </a>
+        
+      </dt>
+      <dd>
+        
+      </dd>
+    
+  
+    
+    
+      <dt class="person">
+        
+        <a href="https://people.csail.mit.edu/jiasi/">
+        
+          Jiasi Shen
+        
+        </a>
+        
+      </dt>
+      <dd>
+        
+      </dd>
+    
+  
+    
+    
+      <dt class="person">
+        
+        <a href="https://adamyedidia.wordpress.com/">
+        
+          Adam Yedidia
+        
+        </a>
+        
+      </dt>
+      <dd>
+        
+      </dd>
+    
+  
+    
+    
+      <dt class="person">
+        
+          Shivam Handa
+        
+      </dt>
+      <dd>
+        
+      </dd>
+    
+  
+    
+    
+      <dt class="person">
+        
+        <a href="http://www.josecambronero.com/">
+        
+          José Pablo Cambronero Sánchez
+        
+        </a>
+        
+      </dt>
+      <dd>
+        
+      </dd>
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  </dl>
+
+  <h3>Post-Doctoral Fellows</h3>
+  <dl class="people">
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+      <dt class="person">
+        
+          Malavika Samak
+        
+      </dt>
+      <dd>
+        
+      </dd>
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  </dl>
+
+  <h3>Research Scientists</h3>
+  <dl class="people">
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+      <dt class="person">
+        
+        <a href="https://www.csail.mit.edu/user/735">
+        
+          Jeff Perkins
+        
+        </a>
+        
+      </dt>
+      <dd>
+        
+      </dd>
+    
+  
+    
+    
+      <dt class="person">
+        
+        <a href="https://people.csail.mit.edu/stelios/">
+        
+          Stelios Sidiroglou-Douskos
+        
+        </a>
+        
+      </dt>
+      <dd>
+        
+      </dd>
+    
+  
+    
+    
+      <dt class="person">
+        
+          Eric Lahtinen
+        
+      </dt>
+      <dd>
+        
+      </dd>
+    
+  
+    
+    
+      <dt class="person">
+        
+        <a href="https://people.csail.mit.edu/mgordon/">
+        
+          Michael Gordon
+        
+        </a>
+        
+      </dt>
+      <dd>
+        
+      </dd>
+    
+  
+    
+    
+      <dt class="person">
+        
+          Jordan Eikenberry
+        
+      </dt>
+      <dd>
+        
+      </dd>
+    
+  
+    
+    
+      <dt class="person">
+        
+          Anthony
+        
+      </dt>
+      <dd>
+        
+      </dd>
+    
+  
+    
+    
+  
+  </dl>
+
+  <h3>Alumni</h3>
+  <dl class="people">
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+      <dt class="person">
+        
+        <a href="http://www.phillipstanleymarbell.org/">
+        
+          Phillip Stanley-Marbell
+        
+        </a>
+        
+      </dt>
+      <dd>
+        
+          
+            University of Cambridge
+          
+        
+      </dd>
+    
+  
+  </dl>
+
+
+
+          <div class="footer">
+            <p>
+              <a href="https://www.csail.mit.edu/">CSAIL</a>
+              at
+              <a href="https://www.mit.edu/">MIT</a>
+            </p>
+          </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+            src="/js/srcset-polyfill.js"></script>
+    </body>
+</html>
