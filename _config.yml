@@ -1,5 +1,5 @@
 name: Program Analysis and Compilation Group at MIT CSAIL
-url: http://pac.mit.edu
+url: pac-lab.github.io/website
 
 exclude: [bibble, README.md, Makefile]
 

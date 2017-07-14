@@ -42,16 +42,16 @@ adam:
     role: grad
     bio:
 
-jose:
-    display_name: "José Pablo Cambronero Sánchez"
-    webpage: "http://www.josecambronero.com/"
+shivam:
+    display_name: "Shivam Handa"
+    webpage: 
     github:
     role: grad
     bio:
 
-shivam:
-    display_name: "Shivam Handa"
-    webpage: 
+jose:
+    display_name: "José Pablo Cambronero Sánchez"
+    webpage: "http://www.josecambronero.com/"
     github:
     role: grad
     bio:
@@ -75,6 +75,13 @@ jeff:
 stelios:
     display_name: "Stelios Sidiroglou-Douskos"
     webpage: "https://people.csail.mit.edu/stelios/"
+    github:
+    role: scientist
+    bio:
+
+eric:
+    display_name: "Eric Lahtinen"
+    webpage:
     github:
     role: scientist
     bio:
