@@ -19,7 +19,7 @@ title: People
         {% endif %}
       </dt>
       <dd>
-        {% if person.role == "alum" %}
+        {% if person.role == "alum" or person.role == "collaborator" %}
           {% if person.current %}
             {{ person.current }}
           {% endif %}

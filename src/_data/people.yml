@@ -1,6 +1,6 @@
 # faculty
 martin:
-    display_name: "Martin Rinard"
+    display_name: "Martin Rinard (Group Director)"
     webpage: "https://people.csail.mit.edu/rinard/"
     github:
     role: faculty
@@ -76,37 +76,40 @@ stelios:
     display_name: "Stelios Sidiroglou-Douskos"
     webpage: "https://people.csail.mit.edu/stelios/"
     github:
-    role: scientist
+    role: faculty
     bio:
 
 eric:
     display_name: "Eric Lahtinen"
     webpage:
     github:
-    role: scientist
+    role: collaborator
     bio:
+    current: "AarnoLabs"  
 
 michael_gordon:
     display_name: "Michael Gordon"
     webpage: "https://people.csail.mit.edu/mgordon/"
     github:
-    role: scientist
+    role: collaborator
     bio:
+    current: "AarnoLabs"
 
 jordan:
     display_name: "Jordan Eikenberry"
     webpage:
     github:
-    role: scientist
+    role: collaborator
     bio:
+    current: "AarnoLabs"
 
 anthony:
     display_name: "Anthony"
     webpage:
     github:
-    role: scientist
+    role: collaborator
     bio:
-
+    current: "AarnoLabs"
 
 # alumni
 # TODO: there's a ton of these to add...

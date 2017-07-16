@@ -12,6 +12,7 @@ roles:
     - {key: grad, name: Graduate Students}
     - {key: postdoc, name: Post-Doctoral Fellows}
     - {key: scientist, name: Research Scientists}
+    - {key: collaborator, name: Collaborators}
     - {key: alum, name: Alumni}
 
 # Base pathname for links.
